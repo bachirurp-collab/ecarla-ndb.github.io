@@ -32,9 +32,17 @@
 
   <section class="partners container">
     <h2>Nos partenaires</h2>
-    <div class="partner-logos">
-      <img src="assets/raid-latecoere.png" alt="Raid Latécoère-Aéropostale">
-      <img src="assets/un-morceau-de-ciel-bleu.png" alt="Un Morceau de Ciel Bleu">
+    <div class="grid-logos">
+      <a href="https://unmorceaudecielbleu.example" target="_blank" rel="noopener">
+      <picture>
+      <!-- WebP for supporting browsers -->
+        <source srcset="/assets/partenaires/un_morceau_de_ciel_bleu_400.webp" type="image/webp">
+        <!-- Fallback PNG -->
+        <img src="/assets/partenaires/un_morceau_de_ciel_bleu_400.png"
+             alt="Un Morceau de Ciel Bleu - logo"
+             width="200" height="200" loading="lazy">
+      </picture>
+    </a>
     </div>
   </section>
 
